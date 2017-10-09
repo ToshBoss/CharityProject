@@ -259,7 +259,7 @@ function check() {
 		check()
 	}
 	else{
-		null
+		alert("Please Make Sure Adblock and all anitviruses are turned off.")
 	}
 }
 
