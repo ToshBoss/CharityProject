@@ -248,18 +248,3 @@
 		});
 	}
 })(window);
-
-function turnOffBlockers() {
-	alert("Please Turn Off Any Anti-Virus Or AdBlockers For Best Results");
-}
-
-function check() {
-	if adblockdetected(){
-		alert("AdBlock Detected, Please Turn off to Continue")
-		check()
-	}
-	else{
-		alert("Please Make Sure Adblock and all anitviruses are turned off.")
-	}
-}
-
