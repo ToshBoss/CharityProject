@@ -1,0 +1,12 @@
+.full{
+	background-color: #f9f7f7;
+	width: 75%;
+	height: 90%;
+	padding: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-opacity: 0.5;
+}
+.question{
+	font-weight: bold;
+}
