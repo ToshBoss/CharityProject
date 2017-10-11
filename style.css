@@ -1,54 +1,18 @@
 /*Style Added Soon!*/
 body {
-	font-family: Raleway;
-	color: white;
 	background-image: url(jaihkdsv.png);
 	background-size: 100%;
 	}
-<<<<<<< HEAD
-.explainingDIV {
+.main{
 	font-family: Raleway;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 10px;
-	padding-left: 10px;
-	width: 750px;
-	margin: auto;
-}
-.bigtext {
-	font-family: Raleway;
-	font-size:600%;
-	padding-top:4%;
-	padding-bottom:15px;
-}
-p{
-	font-family: Raleway;
-
-}
-.question{
-	font-family: Raleway;
-	font-size: 150%;
-}
-.answer{
-
-}
-h1{
-	font-family: Raleway;
-	padding-bottom:15px;
-}
-h2{
-	font-family: Raleway;
-	padding-bottom:10px;
-}
-h3{
-	font-family: Raleway;
-	padding-bottom:10px;
-}
-h4{
-	font-family: Raleway;
-	padding-bottom:10px;
+	color: white;
+	padding-top:5%;
+	padding-left: 10%;
+	padding-right:10%;
+	text-align: center;
 }
 
+.btn-default{
 	color:white;
 	background-color:transparent;
 	font-family: Raleway;
