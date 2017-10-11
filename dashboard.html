@@ -16,53 +16,26 @@
 	<title>Dashboard</title>
 </head>
 <body onload = "check()">
-<nav class="navbar navbar-default hi">
-  <div class="container-fluid navie">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="hi">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand a1"  href="index.html"		><i class="fa fa-cogs" aria-hidden="true"></i></a>
-    </div>
+<div class="main">
+<h1>Miner</h1>
+<h4>Where The Magic Happens!</h4>
+<p class="main">
+  So how does the miner work? It's actually pretty simple, as quoted from our Getting Started page: <b>When you connect to this website, you can access a page that allows you us to use your CPU (the brains of your computer) to mine a cryptocurrency named Monero, which we will then donate 90% of to a charity.</b>
+</p>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-      	<li><a href="dashboard.html">Dashboard</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-     </ul>
-     <ul class="nav navbar-nav navbar-right">
-     	<li><a href="login.html">Login</a></li>
-     	<li><a href="signup.html">Sign Up</a></li>
-
-     </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-</ul>
 </div>
-
-<div class="container"> 
-  <div class="jumbotron">
-    <h1 id="Jumbo">CharityMine</h1>
-    <h4 id="Jumbo">Donate To Charity Without Even Reaching For Your Wallet</h4>
-  </div>
+<div class="adblock">
+<div class="alert alert-info" role="alert">Make sure that your AdBlocker and Antivirus is disabled for this site, or the miner will not load.</div>
 </div>
-
-
 <script src="https://coinhive.com/lib/miner.min.js" async></script>
+<div class="minerdiv">
 <div class="coinhive-miner" 
-	style="width: 100%; height: 100%"
-	data-key="7oLovEZAJFs8C0uA539hmg8R64x8d1va">
-	<em>Loading...</em>
-
+  style="width: 100%; height: 100%;"
+  data-key="7oLovEZAJFs8C0uA539hmg8R64x8d1va">
+<em>Loading...</em>
+</div>
+<div class="button">
+<a class="btn btn-default" href="index.html" role="button">Back to Home</a>
 </div>
 </body>
-</nav>
 </html>
