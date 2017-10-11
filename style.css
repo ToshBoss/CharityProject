@@ -1,5 +1,18 @@
 /*Style Added Soon!*/
 body {
 	background-image: url(jaihkdsv.png);
-	background-size: 100%
+	background-size: 100%;
 	}
+.main{
+	font-family: Raleway;
+	color: white;
+	padding-top:5%;
+	padding-left: 10%;
+	padding-right:10%;
+	text-align: center;
+}
+
+.btn-default{
+	color:white;
+	background-color:transparent;
+}
