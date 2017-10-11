@@ -46,3 +46,15 @@ padding-right:25%;
 	padding-top:4%;
 	padding-bottom:15px;
 }
+.faq{
+	font-size:150%;
+	padding-top:4%;
+	padding-bottom:15px;
+}
+
+.btn.btn-primary.btn-lg{
+	color:white;
+	background-color:transparent;
+	font-family: Raleway;
+	border-color: white;
+}
