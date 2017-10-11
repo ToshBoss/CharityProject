@@ -18,7 +18,6 @@ Created by Josh Philip, Safi Patel, and Samuel Kang
 			<a href="contact.php">Contact Us</a>
 		</li>
 	</ul>
-	<div>
-	</div>
+	<h1>CharityMiner</h1>
 </body>
 </html>
