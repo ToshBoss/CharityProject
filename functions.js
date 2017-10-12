@@ -1,4 +1,14 @@
 /*
+Our Functions
+*/
+function check(){
+	alert("Please Disable Any Types Of AdBlockers Or AntiViruses For The Miner To Work");
+}
+
+
+
+
+/*
  * BlockAdBlock 3.2.1
  * Copyright (c) 2015 Valentin Allaire <valentin.allaire@sitexw.fr>
  * Released under the MIT license
@@ -248,18 +258,3 @@
 		});
 	}
 })(window);
-
-function turnOffBlockers() {
-	alert("Please Turn Off Any Anti-Virus Or AdBlockers For Best Results");
-}
-
-function check() {
-	if adblockdetected(){
-		alert("AdBlock Detected, Please Turn off to Continue")
-		check()
-	}
-	else{
-		alert("Please Make Sure Adblock and all anitviruses are turned off.")
-	}
-}
-
