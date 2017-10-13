@@ -1,166 +1,18 @@
 /*Style Added Soon!*/
 body {
-	font-family: Raleway;
-	color: white;
-}
-img {
-    width:;
-    height: auto;
-}
-
-a:hover, a:visited, a:active, a:link{
-	color:white;
-	text-decoration: none;
-}
-.backgroundDIV {
-    width: 100%;
-    height: 100%;
-    background-image: url('jaihkdsv.png');
-    background-repeat: no-repeat;
-    background-size:100% 100%;
-}
-@media only screen and (min-device-width: 1025px){
-	.backgroundDIV {
-	
-    width: 100%;
-	height: 100%;
-    background-image: url('jaihkdsv.png');
-    background-repeat: no-repeat;
-    background-size:100% 100%;
+	background-image: url(jaihkdsv.png);
+	background-size: 100%;
 	}
-}
 .main{
 	font-family: Raleway;
 	color: white;
-	padding-top:8%;
+	padding-top:5%;
 	padding-left: 10%;
 	padding-right:10%;
 	text-align: center;
 }
-.explainingDIV {
-	font-family: Raleway;
-	padding-top: 7%;
-	padding-bottom: 10%;
-	padding-right: 10%;
-	padding-left: 10%;
-	width: 750px;
-	margin: auto;
-	text-align: center;
-}
-.getStartedHowWorks{
-	text-align:center;
-	padding:1px;
-	padding-right: 1px; 
-	padding-left: 1px;
-	font-size:45px;
-	border-style:solid;
-	border-color:white;
-}
-.getStartedDIV{
-	font-family: Raleway;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 10px;
-	padding-left: 10px;
-	width: 750px;
-	margin: auto;
-}
-.bigtext {
-	font-family: Raleway;
-	font-size:600%;
-	padding-top:4%;
-	padding-bottom:15px;
-}
-p{
-	font-family: Raleway;
 
-}
-.question{
-	font-family: Raleway;
-	font-size: 150%;
-}
-.answer{
-
-}
-h1{
-	font-family: Raleway;
-	padding-bottom:15px;
-}
-h2{
-	font-family: Raleway;
-	padding-bottom:10px;
-}
-h3{
-	font-family: Raleway;
-	padding-bottom:10px;
-}
-h4{
-	font-family: Raleway;
-	padding-bottom:10px;
-}
-h5{
-	font-family: Raleway;
-	padding-bottom:10px;
-}
-h6{
-	font-family: Raleway;
-	padding-bottom:10px;
-}
-
-p{
-	font-family: Raleway;
-
-}
-.alert.alert-info{
+.btn-default{
 	color:white;
 	background-color:transparent;
-	border-color:white;
-	text-align: center;
-	font-family: Raleway;
-}
-.adblock{
-padding-left: 25%;
-padding-right:25%;
-}
-.minerdiv{
-	padding-left: 25%;
-	padding-right:25%;
-}
-.button{
-	padding-right: 10%;
-	padding-left: 10%;
-	text-align: center;
-}
-.heading1 {
-	font-size:1000%;
-	padding-top:4%;
-	padding-bottom:15px;
-}
-.faq{
-	font-size:150%;
-	padding-top:4%;
-	padding-bottom:15px;
-}
-.btn.btn-default{
-	color:white;
-	font-size:25px;
-	text-align:center;
-	background-color:transparent;
-	font-family: Raleway;
-	border-color:white;
-}
-
-.btn.btn-primary.btn-lg{
-	color:white;
-	background-color:transparent;
-	font-family: Raleway;
-	border-color: white;
-}
-.btn.btn-homepage{
-	color:white;
-	font-size:15px;
-	text-align:center;
-	background-color: transparent;
-	font-family:Raleway;
-	border-color:white;
 }
