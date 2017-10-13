@@ -13,23 +13,13 @@ a:hover, a:visited, a:active, a:link{
 	text-decoration: none;
 }
 .backgroundDIV {
-    width: cover;
-    height: auto;
+    width: 100%;
+	height: auto;
     background-image: url('jaihkdsv.png');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding-bottom:200%;
+    background-size:cover;
+	padding-bottom:36%;
 }
-@media only screen and (min-device-width: 1024px){
-	.backgroundDIV {
-		    width: 100%;
-			height: auto;
-		    background-image: url('jaihkdsv.png');
-		    background-repeat: no-repeat;
-		    background-size:cover;
-		    padding-bottom:36%;
-		}
-	}
 .main{
 	font-family: Raleway;
 	color: white;
