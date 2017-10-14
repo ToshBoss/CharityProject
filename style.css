@@ -36,7 +36,7 @@ goesOver Located: getstarted.html;
 	background-size: cover;
 	width: 100%;
 	height: auto;
-	padding-bottom:10px;
+	padding-bottom:1%;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -52,8 +52,8 @@ Explanations:
 .explanation{
 	color:white;
 	font-size:20px;
-	padding-right: 355px;
-	padding-left: 355px;
+	padding-right: 27%;
+	padding-left: 27%;
 	text-align:left;
 	font-family: 'PT Sans', sans-serif;
 }
