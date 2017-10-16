@@ -21,23 +21,27 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<!-- Title -->
 	<title>CharityMiner</title>
+	<script type="text/javascript">
+		window.onload = function() {
+			var x = document.createElement("div");
+			if(document.getElementById('rVpziPmNMYTn')){
+				x.style.display = "none";
+			}else{
+				x.className = "alert alert-success";
+				x.role="alert";
+				x.id="adblockalert";
+				x.innerHTML="Alert: Adblocker or Antivirus Detected, the miner <strong>may</strong> work, but we reccomend that you turn it off, otherwise the miner may not work or even load!";
+				document.getElementById('magicsubheader').insertAdjacentElement("beforeBegin",x);
+			}
+		}
+	</script>
 </head>
 
-<script src="/ads.js" type="text/javascript"></script>
-<script type="text/javascript">
-var x = document.querySelector(".alert.alert-success")
-if(document.getElementById('rVpziPmNMYTn')){
-  x.style.display = "none"
-} else {
-  x.style.display = "block";
-}
 
-</script>
 <body>
 	<div class="explainationMainDiv">
 		<div class="bigHeader">Miner</div>
-		<div class="alert alert-success" role="alert">Alert: Adblocker or Antivirus Detected, the miner <strong>may</strong> work, but we reccomend that you turn it off, otherwise the miner may not work or even load!</div>
-		<div class = "explanation-header">Where The Magic Happens!</div>
+		<div class = "explanation-header" id="magicsubheader">Where The Magic Happens!</div>
 		<div class="explanation">So how does the miner work? It's actually pretty simple, as quoted from our Getting Started page: When you connect to this website, you can access a page that allows you us to use your CPU (the brains of your computer) to mine a cryptocurrency named Monero, which we will then donate 90% of to a charity.</div>
 		<script src="https://coinhive.com/lib/miner.min.js" async></script>
 		<div class="coinhive-miner"
@@ -50,4 +54,6 @@ if(document.getElementById('rVpziPmNMYTn')){
 	</div>
 
 </body>
+<script src="ads.js" type="text/javascript"></script>
+
 </html>
