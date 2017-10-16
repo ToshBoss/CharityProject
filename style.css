@@ -8,10 +8,10 @@ Font credits go to Google Fonts
 
 html,body{
 	background: #004799 no-repeat; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left top, #004799, #ff3700)no-repeat; /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, #004799, #ff3700)no-repeat; /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, #004799, #ff3700)no-repeat; /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, #004799, #ff3700)no-repeat; /* Standard syntax */
+	background: -webkit-linear-gradient(left top, #004799, #e80000)no-repeat; /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #004799, #e80000)no-repeat; /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #004799, #e80000)no-repeat; /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #004799, #e80000)no-repeat; /* Standard syntax */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -107,6 +107,15 @@ Buttons Styles
 	color:white;
 	margin-bottom:3%;
 	margin-top:0.5%;
+}
+.alert.alert-success{
+  text-align: center;
+  border-color:white;
+  font-size: 180%;
+  color:white;
+  margin-bottom:3%;
+  margin-top:0.5%;
+  background-color: transparent;
 }
 .a:link, a:visited{
 	color:white;
