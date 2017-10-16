@@ -1,0 +1,7 @@
+Credits (Where credit is due):
+
+Created by Joshua Philip, Safi Patel, and Samuel Kang
+UI Inspiration: Safi Patel
+Original UI Designed by: Joshua Philip
+Styled by: Safi Patel, Joshua Philip, and Samuel Kang
+Miner Framework Implemented by: Joshua Philip
