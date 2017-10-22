@@ -206,3 +206,6 @@ a href; Links style
     -ms-transform:  translate(0px,0px)  ;
   }
 }
+.stats{
+  text-align: center;
+}
