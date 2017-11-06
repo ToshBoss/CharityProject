@@ -20,7 +20,8 @@ html,body{
 	margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-	font-family: Raleway;
+	/*font-family: Raleway; */
+  font-family: 'Roboto Slab', serif;
 }
 
 /*
@@ -41,19 +42,22 @@ Explanations:
 .explainationMainDiv is used as a container for the explainations
 */
 .explanation{
-	font-size:140%;
-	margin-top:2%;
+	font-size:160%;
+	margin-bottom: 2%;
 }
 .explanation-header{
-	font-size:165%;
-	font-weight:bold;
-	margin-top:1%;
+  font-size:200%;
+  padding:1%;
 }
 .explainationMainDiv{
 	color:white;
 	margin-right:27%;
 	margin-left:27%;
 	text-align:left;
+  padding-top:2%;
+  padding-right:1.5%;
+  padding-left:1.5%;
+  padding-bottom:2%;
 }
 /*
 Used on index.html as a container
@@ -70,6 +74,17 @@ Huge header used on index.html
 	color:white;
 	margin-top:5%;
 }
+
+
+.hugeHeader2{
+  font-size:700%;
+  font-weight: 100;
+  color:white;
+  margin-top:5%;
+}
+
+
+
 /*
 First Header on a Page
 */
@@ -208,4 +223,28 @@ a href; Links style
 }
 .stats{
   text-align: center;
+  color:white;
+  font-family: 'Roboto Slab', serif;
 }
+.special{
+  font-size:170%;
+  color:white;
+  text-align:center;
+  padding-right: 25%;
+  padding-left: 25%;
+}
+
+.btn.btn-dashboard{
+  font-size:135%;
+  border-style: solid;
+  border-color: white;
+  color:white;
+  margin-bottom:5%;
+}
+.btn.btn-dashboard:hover{
+  text-decoration: none;
+  text-align: center;
+  background-color:white;
+  color:black;
+}
+

@@ -19,6 +19,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 	<!-- CSS Font: Raleway -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<!-- CSS Font: Robot Slap -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 	<!-- Title -->
 	<title>CharityMiner</title>
 	<script type="text/javascript">
@@ -30,7 +32,7 @@
 				x.className = "alert alert-success";
 				x.role="alert";
 				x.id="adblockalert";
-				x.innerHTML="Alert: Adblocker or Antivirus Detected, the miner <strong>may</strong> work, but we reccomend that you turn it off, otherwise the miner may not work or even load!";
+				x.innerHTML="Alert: Adblocker or Antivirus Detected, the miner <strong>may</strong> work, but we recommend that you turn it off--otherwise the miner may not work or even load!";
 				document.getElementById('magicsubheader').insertAdjacentElement("beforeBegin",x);
 			}
 		}
@@ -39,16 +41,11 @@
 
 
 <body>
-	<div class="explainationMainDiv">
-		<div class="bigHeader">Miner</div>
-		<div class = "explanation-header" id="magicsubheader">Where The Magic Happens!</div>
-		<div class="explanation">So how does the miner work? It's actually pretty simple, as quoted from our Getting Started page: When you connect to this website, you can access a page that allows you us to use your CPU (the brains of your computer) to mine a cryptocurrency named Monero, which we will then donate 90% of to a charity.</div>
+	<div class="mainDIV">
+		<div class="hugeHeader2">Miner</div>
+		<div class="special"><h3>So how does the miner work? It's actually pretty simple, as quoted from our Getting Started page: When you connect to this website, you can access a page that allows you us to use your CPU (the brains of your computer) to mine a cryptocurrency named Monero, which we will then donate 90% of to a charity.</h3></div>
 			<div class="minerDIV">
 				<script src="https://authedmine.com/lib/authedmine.min.js"></script>
-				<script>
-					var miner = new CoinHive.Anonymous('7oLovEZAJFs8C0uA539hmg8R64x8d1va');
-					miner.start();
-				</script>
 				<script>
 					setInterval(function() {
 						var hashesPerSecond = miner.getHashesPerSecond();
@@ -59,16 +56,19 @@
 						document.getElementById("hashes").innerHTML = hashesPerSecond;;
 						document.getElementById("h2hashes").innerHTML = totalHashes;
 					}, 1);
-</script>
+				</script>
 			</div>
 		<div class="stats">
-			<h1>Hashes Per Second:</h1>
+			<h3>Hashes Per Second:</h3>
 			<h2 id="hashes">0</h2>
-			<h1>Total Hashes:</h1>
+			<h3>Total Hashes:</h3>
 			<h2 id="h2hashes">0</h2>
 		</div>
 		<div class = "mainDIV">
-		<a class="btn btn-main" href="index.html" role="button">Back To Home</a>
+				<div class="btn btn-dashboard" role="button" onclick="var miner = new CoinHive.Anonymous('7oLovEZAJFs8C0uA539hmg8R64x8d1va'); miner.start();">
+					Start
+				</div>
+		<a class="btn btn-dashboard" href="index.html" role="button">Back To Home</a>
 		</div>
 	</div>
 
