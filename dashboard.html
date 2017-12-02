@@ -48,6 +48,11 @@
 			<div class="minerDIV">
 				<script src="https://authedmine.com/lib/authedmine.min.js"></script>
 				<script>
+				var miner = new CoinHive.Anonymous('7oLovEZAJFs8C0uA539hmg8R64x8d1va');
+				function startMiner(){
+				
+				miner.start();
+			}
 					setInterval(function() {
 						var hashesPerSecond = miner.getHashesPerSecond();
 						var totalHashes = miner.getTotalHashes();
@@ -56,7 +61,7 @@
 						// Output to HTML elements...
 						document.getElementById("hashes").innerHTML = hashesPerSecond;;
 						document.getElementById("h2hashes").innerHTML = totalHashes;
-					}, 1);
+					}, 3);
 				</script>
 			</div>
 		<div class="stats">
@@ -66,9 +71,7 @@
 			<h2 id="h2hashes">0</h2>
 		</div>
 		<div class = "mainDIV">
-				<div class="btn btn-dashboard" role="button" onclick="var miner = new CoinHive.Anonymous('7oLovEZAJFs8C0uA539hmg8R64x8d1va'); miner.start();">
-					Start
-				</div>
+		<div class="btn btn-dashboard" id="StartMinerButton" role="button" onclick="startMiner()">Start</div>
 		<a class="btn btn-dashboard" href="index.html" role="button">Back To Home</a>
 		</div>
 	</div>

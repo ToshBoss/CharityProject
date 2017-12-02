@@ -1,4 +1,4 @@
-l/*
+/*
 Styles created by Samuel Kang, Safi Patel, and Josh Philip
 Font credits go to Google Fonts
 */
@@ -7,20 +7,37 @@ Font credits go to Google Fonts
 																					*/
 
 html,body{
-	background: #004799 no-repeat; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left top, #004799, #B50000)no-repeat; /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, #004799, #B50000)no-repeat; /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, #004799, #B50000)no-repeat; /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, #004799, #B50000)no-repeat; /* Standard syntax */
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	width: 100%;
-	margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-	font-family: Raleway;
+background: linear-gradient(235deg, #004799, #B50000, #59008a);
+background-size: 600% 600%;
+width: 100%;
+margin: 0;
+background-repeat: no-repeat;
+font-family: Raleway !important;
+-webkit-animation: NewBackground 24s ease infinite;
+-moz-animation: NewBackground 24s ease infinite;
+-o-animation: NewBackground 24s ease infinite;
+animation: NewBackground 24s ease infinite;
+}
+@-webkit-keyframes NewBackground {
+    0%{background-position:0% 42%}
+    50%{background-position:100% 59%}
+    100%{background-position:0% 42%}
+}
+@-moz-keyframes NewBackground {
+    0%{background-position:0% 42%}
+    50%{background-position:100% 59%}
+    100%{background-position:0% 42%}
+}
+@-o-keyframes NewBackground {
+    0%{background-position:0% 42%}
+    50%{background-position:100% 59%}
+    100%{background-position:0% 42%}
+}
+@keyframes NewBackground { 
+    0%{background-position:0% 42%}
+    50%{background-position:100% 59%}
+    100%{background-position:0% 42%}
+}
 }
 
 /*
@@ -223,7 +240,7 @@ a href; Links style
 .stats{
   text-align: center;
   color:white;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Raleway';
 }
 .special{
   font-size:170%;
@@ -246,4 +263,3 @@ a href; Links style
   background-color:white;
   color:black;
 }
-
