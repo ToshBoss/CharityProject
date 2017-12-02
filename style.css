@@ -1,4 +1,4 @@
-/*
+l/*
 Styles created by Samuel Kang, Safi Patel, and Josh Philip
 Font credits go to Google Fonts
 */
@@ -20,8 +20,7 @@ html,body{
 	margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-	/*font-family: Raleway; */
-  font-family: 'Montserrat', sans-serif;
+	font-family: Raleway;
 }
 
 /*
