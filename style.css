@@ -12,7 +12,7 @@ background-size: 600% 600%;
 width: 100%;
 margin: 0;
 background-repeat: no-repeat;
-font-family: Raleway !important;
+font-family: 'Roboto', sans-serif;
 -webkit-animation: NewBackground 24s ease infinite;
 -moz-animation: NewBackground 24s ease infinite;
 -o-animation: NewBackground 24s ease infinite;
