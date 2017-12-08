@@ -1,5 +1,5 @@
 /*
-Styles created by Samuel Kang, Safi Patel, and Josh Philip
+Styles created by Samuel Kang, Safi Patel, and Joshua Philip
 Font credits go to Google Fonts
 */
 																					/*
@@ -58,11 +58,11 @@ Explanations:
 .explainationMainDiv is used as a container for the explainations
 */
 .explanation{
-	font-size:160%;
+	font-size:200%;
 	margin-bottom: 2%;
 }
 .explanation-header{
-  font-size:200%;
+  font-size:300%;
   padding:1%;
 }
 .explainationMainDiv{
